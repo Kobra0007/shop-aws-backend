@@ -1,0 +1,126 @@
+{
+  "aws-course-products": [
+      {
+          "PutRequest": {
+              "Item": {
+                  "id": {"S": "7567ec4b-b10c-48c5-9345-fc73c48a80a1"},
+                  "title": {"S": "ProductTitle7"},
+                  "description": {"S": "Short Product Description7"},
+                  "price": {"N": "15"},
+                  "img_url": {"S": "https://i.seadn.io/gcs/files/993fb5fc51ba0ad55f15e2856bc32f83.png?auto=format&w=500&h=500"}
+              }
+          }
+      },
+      {
+          "PutRequest": {
+              "Item": {
+                  "id": {"S": "7567ec4b-b10c-48c5-9345-fc73c48a80aa"},
+                  "title": {"S": "ProductOne"},
+                  "description": {"S": "Short Product Description1"},
+                  "price": {"N": "24"},
+                  "img_url": {"S": "https://i.seadn.io/gcs/files/c2883f4c264b720fe1a7a1ff4119e367.png?auto=format&w=500&h=500"}
+              }
+          }
+      },
+      {
+          "PutRequest": {
+              "Item": {
+                  "id": {"S": "7567ec4b-b10c-48c5-9345-fc73c48a80a3"},
+                  "title": {"S": "Product"},
+                  "description": {"S": "Short Product Description2"},
+                  "price": {"N": "23"},
+                  "img_url": {"S": "https://i.seadn.io/gcs/files/90319cbe55a88e2051b09e5d4058ce43.png?auto=format&w=500&h=500"}
+              }
+          }
+      },
+      {
+          "PutRequest": {
+              "Item": {
+                  "id": {"S": "7567ec4b-b10c-48c5-9345-fc73348a80a1"},
+                  "title": {"S": "ProductTest"},
+                  "description": {"S": "Short Product Description4"},
+                  "price": {"N": "16"},
+                  "img_url": {"S": "https://i.seadn.io/gcs/files/23a3bec32e88eb772e0345f7ce3aede3.jpg?auto=format&w=500&h=500"}
+              }
+          }
+      },
+      {
+          "PutRequest": {
+              "Item": {
+                  "id": {"S": "7567ec4b-b10c-48c5-9445-fc73c48a80a2"},
+                  "title": {"S": "Product2"},
+                  "description": {"S": "Short Product Description1"},
+                  "price": {"N": "8"},
+                  "img_url": {"S": "https://i.seadn.io/s/production/7ac5d8ee-0c32-4d3e-a23d-5a1f759dd9a5.png?w=500&auto=format"}
+              }
+          }
+      },
+      {
+          "PutRequest": {
+              "Item": {
+                  "id": {"S": "7567ec4b-b10c-45c5-9345-fc73c48a80a1"},
+                  "title": {"S": "ProductName8"},
+                  "description": {"S": "Short Product Description8"},
+                  "price": {"N": "16"},
+                  "img_url": {"S": "https://i.seadn.io/gcs/files/fcbbe58025b7a216e1f810af5c9e01dc.png?auto=format&w=500&h=500"}
+              }
+          }
+      }
+  ],
+  "aws-course-stock": [
+      {
+          "PutRequest": {
+              "Item": {
+                  "id": {"S": "1"},
+                  "product_id": {"S": "7567ec4b-b10c-48c5-9345-fc73c48a80a1"},
+                  "count": {"N": "4"}
+              }
+          }
+      },
+      {
+          "PutRequest": {
+              "Item": {
+                  "id": {"S": "2"},
+                  "product_id": {"S": "7567ec4b-b10c-48c5-9345-fc73c48a80aa"},
+                  "count": {"N": "7"}
+              }
+          }
+      },
+      {
+          "PutRequest": {
+              "Item": {
+                  "id": {"S": "3"},
+                  "product_id": {"S": "7567ec4b-b10c-48c5-9345-fc73c48a80a3"},
+                  "count": {"N": "10"}
+              }
+          }
+      },
+      {
+          "PutRequest": {
+              "Item": {
+                  "id": {"S": "4"},
+                  "product_id": {"S": "7567ec4b-b10c-48c5-9345-fc73348a80a1"},
+                  "count": {"N": "11"}
+              }
+          }
+      },
+      {
+          "PutRequest": {
+              "Item": {
+                  "id": {"S": "5"},
+                  "product_id": {"S": "7567ec4b-b10c-48c5-9445-fc73c48a80a2"},
+                  "count": {"N": "3"}
+              }
+          }
+      },
+      {
+          "PutRequest": {
+              "Item": {
+                  "id": {"S": "6"},
+                  "product_id": {"S": "7567ec4b-b10c-45c5-9345-fc73c48a80a1"},
+                  "count": {"N": "10"}
+              }
+          }
+      }
+  ]
+}

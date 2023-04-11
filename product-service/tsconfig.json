@@ -1,6 +1,14 @@
 {
   "extends": "./tsconfig.paths.json",
   "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+        "@functions/*": ["src/functions/*"],
+        "@functions": ["src/functions"],
+        "@libs/*": ["src/libs/*"],
+        "@types": ["src/types"],
+        "@constants": ["src/constants.ts"]
+    },
     "lib": ["ESNext"],
     "moduleResolution": "node",
     "esModuleInterop": true,
